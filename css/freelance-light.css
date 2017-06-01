@@ -1,0 +1,73 @@
+.navbar-left{
+	background-color: #f2f2f2;
+}
+
+.brand{
+	color: #303030;
+}
+
+.navbar-left .brand-panel{
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.navbar-left .nav-desctop-list  > li > a{
+	color: #c1c1c1;
+}
+
+.navbar-left .nav-desctop-list > li > a:hover, 
+.navbar-left .nav-desctop-list > .active > a{
+	color: #323232;
+}
+
+.navbar-left .social-list a{
+	color: #a7a7a7;
+}
+
+.social-list li a{
+	color: #303030;
+}
+
+.affix .social-list li a{
+   color: #fff;
+}
+
+
+.navbar-toggle.collapsed .icon-bar{
+	background-color: #303030;
+}
+
+.main{
+	background-color: #f9f9f9;
+}
+
+.main:before{
+	display: none;
+}
+
+.main h1{
+	color: #303030;
+}
+
+.mouse-helper{
+	color: #a7a7a7;
+}
+
+.mouse-helper .ion-mouse {
+    background: url(../img/mouse2.png);
+    background-size: cover;
+}
+
+.hr{
+	width: 4.5em;
+	border-top: 3px solid #3d3d3d;
+	margin:0 auto;
+}
+
+.hr-top{
+	margin-bottom: 3em;
+}
+
+.hr-bottom{
+	margin-top: 3em;
+}
+

@@ -1,0 +1,74 @@
+/*-------------------------------------------------------------------------------
+  1. Global
+-------------------------------------------------------------------------------*/
+
+
+body{
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #313131;
+}
+
+
+/* Typography */
+
+
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6{
+  color:#fff;
+}
+
+
+
+/* Loader */
+
+
+
+.double-bounce1, .double-bounce2 {
+  background-color: #161616;
+}
+
+
+
+/* Clients */
+
+
+.owl-page{
+  background-color: #262626;
+}
+
+.owl-page.active{
+  background-color: #fff;
+  box-shadow: 0 0 13px rgba(255,255,255,0.8);
+}
+
+.client .quote{
+  color: #252525;
+}
+
+
+
+/* Modal */
+
+.modal-title{
+  color:#3d3d3d;
+}
+
+.modal-content{
+  color: #3d3d3d;
+}
