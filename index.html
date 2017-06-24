@@ -1,9 +1,10 @@
+
 <!DOCTYPE HTML>
 <html lang="ru">
 <head>
 <meta  charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Скут – умные термостаты</title> 
+<title>Скат24 – умные термостаты</title> 
 
 <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -22,21 +23,67 @@
 <link href="css/style.css" rel="stylesheet" media="screen">
 </head>
 <body>
-  
-    <!-- Header -->
-    
-    <header class="navbar navbar-responsive">
-      <div class="container">
-        <a href="#" class="brand js-target-scroll">
+  	
+	 <!-- Header -->
+
+    <header class="navbar">
+      <div>
+        <a href="/" class="brand js-target-scroll" style="font-size: 1em;">
             <img alt="Scut" height="25px" src="scut_rus_web.png">
         </a>
+
+        <!-- Navbar Collapse -->
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        <!-- Navigation Desctop -->
+
+        <nav class="nav-desctop hidden-xs hidden-sm">
+          <ul class="nav-desctop-list">
+            <li>
+              <a href="/my_devices/">Мои датчики</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="/demo/">Демо-версия</a>
+            </li>
+			<li style="float: right; font-weight: bold;"><a href="/accounts/login/">Войти</a></li>
+            </ul>
+        </nav>
+
+        <!-- Navigation Mobile -->
+
+        <nav class="nav-mobile hidden-md hidden-lg">
+          <div class="collapse navbar-collapse" id="nav-collapse">
+            <ul class="nav-mobile-list">
+              <li class="active">
+                <a href="/my_devices/">Мои датчики <i class="fa fa-angle-down"></i></a>
+              </li>
+              <li>
+                <a href="#">Магазин <i class="fa fa-angle-down"></i></a>
+              </li>
+              <li>
+                <a href="#">О нас <i class="fa fa-angle-down"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
-    
+	
+	
+	
     <!-- Home -->
     
     <main class="main">
       
-
       <!-- Start revolution slider -->
 
       <div class="rev_slider_wrapper">
@@ -52,12 +99,11 @@
               <img src="img/slider/home_example_future.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg"  data-bgparallax="7" >
 
               <!-- Layer 1 -->
-
-              <div class="slider-title tp-caption tp-resizeme" 
+			  <div class="slider-title tp-caption tp-resizeme"
                 data-x="['center','center','center','center']" data-hoffset="['0']"  
                 data-y="['middle','middle','middle','middle']" data-voffset="['-60']"
                 data-textAlign="['center','center','center','center']"
-                data-fontsize="['70', '60','50','40']"
+                data-fontsize="['50', '40','30','20']"
                 data-lineheight="['80','70', '50','40']"
                 data-height="none"
                 data-whitespace="nowrap"
@@ -70,8 +116,7 @@
                 data-splitin="chars" 
                 data-splitout="none" 
                 data-responsive_offset="on" 
-                data-elementdelay="0.05">Новое слово в управлении отоплением
-              </div>
+                data-elementdelay="0.05">Новое слово в управлении отоплением </div>
 
               <!-- Layer 2 -->
 
@@ -89,15 +134,54 @@
                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
                 data-start="1500" 
                 data-splitin="none" 
-                data-splitout="none">Мы производим термостаты для управления температурой в коттедже через интернет.
-            Вы сможете включить SMS-уведомления: превышение температуры и отключение связи.
-              </div>
+                data-splitout="none">Термостат Попов позволит вам контролировать климат дома в любой точке мира через Интернет. </div>
 
               
-            <!-- Layer 3 -->
+            <!-- Layer 3 --> 
+ 
+            <div class="tp-caption" 
+              data-x="['center','center','center','center']" data-hoffset="['-180']"  
+              data-y="['middle','middle','middle','middle']" data-voffset="['125']"  
+              data-width="none" 
+              data-height="none" 
+              data-fontsize="['15']"  
+              data-whitespace="nowrap" 
+              data-transform_idle="o:1;" 
+              data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" 
+              data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);" 
+              data-transform_in="x:-200px;opacity:0;s:1500;e:Power4.easeInOut;"  
+              data-transform_out="x:-200px;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"  
+              data-mask_out="x:inherit;y:inherit;"  
+              data-start="1500"  
+              data-splitin="on"  
+              data-splitout="none"  
+              data-responsive_offset="on"><a href="#order" class="btn btn-trans">Давайте познакомимся?</a> 
+            </div> 
+ 
+            <!-- Layer 4 --> 
+ 
+            <div class="tp-caption" 
+              data-x="['center','center','center','center']" data-hoffset="['130']"  
+              data-y="['middle','middle','middle','middle']" data-voffset="['125']"  
+              data-width="none" 
+              data-fontsize="['15']" 
+              data-height="none" 
+              data-whitespace="nowrap" 
+              data-transform_idle="o:1;" 
+              data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" 
+              data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);" 
+              data-transform_in="x:200px;opacity:0;s:1500;e:Power4.easeInOut;"  
+              data-transform_out="x:200px;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"  
+              data-mask_out="x:inherit;y:inherit;"  
+              data-start="1500"  
+              data-splitin="on"  
+              data-splitout="none"  
+              data-responsive_offset="on"><a href="#request" class="btn btn-trans" data-toggle="modal">Видео о нас</a> 
+            </div>
+
 
             
-          </li>
+            </li>
           </ul>
         </div>
       </div>
@@ -107,80 +191,214 @@
       </div>
     </main>
 
-    <div class="content"> 
+	     <!-- Portfolio -->
 
-
-      <!-- Portfolio -->
-
-      <section class="porftolio section pb-0">
-        <div class="container">
-          <div class="row">
-            <header class="text-center col-md-8 col-md-offset-2">
-            <h2 class="section-title">Термостат «Скут Попов»</h2>
-            <p class="section-lead">Наш первый продукт для управления газовыми системами отопления в коттедже</p>
-            <br>
-            <br>
-            </header>
-          </div>
+      <section class="porftolio">
+        <div class="container-fluid">
+          <ul class="filter">
+            <li class="active"><a href="#" data-filter="*">All</a></li>
+            <li><a href="#" data-filter=".digital">Попов</a></li>
+            <li><a href="#" data-filter=".branding">Комфорт</a></li>
+            <li><a href="#" data-filter=".marketing">Экономия</a></li>
+            <li><a href="#" data-filter=".video">Внешний вид</a></li>
+            <li><a href="#" data-filter=".photo">Установка</a></li>
+          </ul>
         </div>
-          <div class="isotope-item w66 bedroom">
+        <div class="isotope isotope-2 js-gallery">
+          <div class="isotope-item digital">
+            <a href="img/portfolio/1-637x930.jpg" title="Stationery Design">
               <figure class="showcase-item">
-                <div class="showcase-item-thumbnail"><img alt="" src="img/popov1.jpg"></div>
+                <div class="showcase-item-thumbnail"><img alt="" src="img/portfolio/1-637x930.jpg"></div>
+                <figcaption class="showcase-item-hover dark">
                   <div class="showcase-item-info">
+                    <div class="showcase-item-category">Термостат Попов</div>
+                    <div class="showcase-item-title">Термостат Попов создан для удаленного управления газовыми котлами в коттедже. 
+И беспрерывного мониторинга текущего состояния температуры.  </div>
                   </div>
+                </figcaption>
               </figure>
+            </a>
+          </div>
+          <div class="isotope-item branding">
+            <a href="img/portfolio/1-637x465.jpg" title="Stationery Design">
+              <figure class="showcase-item">
+                <div class="showcase-item-thumbnail"><img alt="" src="img/portfolio/1-637x465.jpg"></div>
+                <figcaption class="showcase-item-hover dark">
+                  <div class="showcase-item-info">
+                    <div class="showcase-item-category">Branding</div>
+                    <div class="showcase-item-title">Stationery Design</div>
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+          </div>  
+          <div class="isotope-item marketing">
+            <a href="img/portfolio/2-637x465.jpg" title="Stationery Design">
+              <figure class="showcase-item">
+                <div class="showcase-item-thumbnail"><img alt="" src="img/portfolio/2-637x465.jpg"></div>
+                <figcaption class="showcase-item-hover dark">
+                  <div class="showcase-item-info">
+                    <div class="showcase-item-category">Branding</div>
+                    <div class="showcase-item-title">Stationery Design</div>
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div class="isotope-item video">
+            <a href="img/portfolio/3-637x465.jpg" title="Stationery Design">
+              <figure class="showcase-item">
+                <div class="showcase-item-thumbnail"><img alt="" src="img/portfolio/3-637x465.jpg"></div>
+                <figcaption class="showcase-item-hover dark">
+                  <div class="showcase-item-info">
+                    <div class="showcase-item-category">Branding</div>
+                    <div class="showcase-item-title">Stationery Design</div>
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div class="isotope-item photo">
+            <a href="img/portfolio/4-637x465.jpg" title="Stationery Design">
+              <figure class="showcase-item">
+                <div class="showcase-item-thumbnail"><img alt="" src="img/portfolio/4-637x465.jpg"></div>
+                <figcaption class="showcase-item-hover">
+                  <div class="showcase-item-info">
+                    <div class="showcase-item-category">Branding</div>
+                    <div class="showcase-item-title">Stationery Design</div>
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
           </div> 
         </div>
       </section>
 
-    
-      <!-- Features -->
+	
+    <div class="content"> 
 
-      <section class="features bg-dark section">
-        <div class="container">
-          <div class="row-base row">
-            <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp">
-              <div class="media-left"><i class="icon ion-android-alert"></i></div>
-              <div class="media-right">
-                <h4 class="text-white">Безопасность</h4>
-                <p>Оповещение о всех нештатных ситуациях: выключение котла, перегрев, отключение связи.</p>
-              </div>
-            </div>
-            <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-              <div class="media-left"><i class="icon ion-thermometer "></i></div>
-              <div class="media-right">
-                <h4 class="text-white">Комфорт</h4>
-                <p>Автоматический контроль комфортной температуры во время вашего присутствия, предсказание времени нагрева системы, точная корректировка по прогнозу погоды.</p>
-              </div>
-            </div>
-            <div class="clearfix visible-sm"></div>
-            <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-              <div class="media-left"><i class="icon ion-leaf"></i></div>
-              <div class="media-right">
-                <h4 class="text-white">Экономия</h4>
-                <p>Если вы захотите, то термостат будет автоматически снижать температуру во время вашего отсутствия и ночью, что позволяет снизить затраты более чем на 10% и повысить ресурс системы отопления.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
+	
+  
       <!-- Banner -->
 
-      <section class="promo section-sm" style="background-color: #2D64AF;">
+      <section class="promo section-sm" style="background-color: green">
         <div class="container">
-          <h2 class="section-title text-white">Станьте нашим первым пользователем!</h2>
-          <p class="section-lead" style="color: white">Сейчас мы проводим испытания термостатов. Уже скоро мы начнем их продажу. Оставьте, пожалуйста, нам вашу почту, чтобы мы написали вас о старте продаж.</p>
+          <h2 class="section-title text-white">Шагайте в ногу со временем!</h2>
+          <p class="section-lead" style="color: white">Преобретите термостат Попов уже сегодня за 10000₽ </p>
         </div>
       </section>
 
       <!-- Contacts -->
+ <div class="content"> 
 
-      <section class="section">
+      
+      <section class="contacts-3">
+        <section class="clearfix">
+          <div class="col-md-4 address-item bg-primary">
+            <div class="address-icon">
+              <i class="icon ion-iphone"></i>
+            </div>
+            <div class="address-title">+7 968 666 18 32</div>
+          </div>
+          <div class="col-md-4 address-item bg-light">
+            <div class="address-icon">
+              <i class="icon ion-ios-email-outline"></i>
+            </div>
+            <div class="address-title">info@scut24.com</div>
+          </div>
+          <div class="col-md-4 address-item bg-dark">
+            <div class="address-icon">
+              <i class="icon ion-ios-location-outline"></i>
+            </div>
+            <div class="address-title">Кирпичная улица 33,<br>
+Москва, Россия</div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <form class="js-ajax-form" novalidate="novalidate">
+                  <div class="col-sm-6 form-group">
+                      <input type="text" name="Имя" placeholder="Имя">
+                  </div>
+                   <div class="col-sm-6 form-group">
+                      <input type="text" name="Фамилия" placeholder="Фамилия">
+                    </div>
+						<div class="col-sm-6 form-group">
+							<input type="email" name="Номер телефона" required="" placeholder="Номер телефона *">
+						</div>
+							<div class="col-sm-6 form-group">
+								<input type="email" name="Электронная почта" placeholder="Электронная почта">
+							</div>
+                  <div class="col-sm-12 form-group">
+                      <textarea rows="3" name="Комментарий" placeholder="Комментарий"></textarea>
+                  </div>
+                  <div class="col-sm-12 text-right">
+                    <button type="submit" class="btn">Отправить заявку</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div id="map" class="map"></div>
+      </section>
+
+      <!-- Footer -->
+
+      <footer id="footer" class="footer bg-dark">     
         <div class="container">
-          <div class="row">
-            <div class="col-md-10 col-md-offset-1">
+          <div class="row-base row">
+            <div class="brand-info col-base col-sm-6 col-md-4">
+              <a href="#top" class="brand js-target-scroll">
+                Virgo.
+              </a>
+              <p>We create web products for the help and growth of your business.</p>
+            </div>
+            <div class="col-base col-sm-6 col-md-2">
+              <ul class="nav-bottom">
+                <li><a href="">Home</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contacts</a></li>
+              </ul>
+            </div>
+            <div class="col-contacts col-base col-sm-6 col-md-3">
+              <a href="tel:88005553535" class="phone">+7 968 666 18 32</a><br>
+              <a href="mailto:info@virgo.com" class="email">info@scut24.ru</a>
+            </div>
+            <div class="col-subscribe col-base col-sm-6 col-md-3">
+              <div class="subscribe-title">Subscribe to our newsletter</div>
+              <form class="subscribe-form js-subscribe-form">
+                <div class="input-group">
+                  <input id="mc-email" type="email" class="input-round form-control" placeholder="Email">
+                  <span class="input-group-btn">
+                    <button class="btn" type="submit"><span class="arrow-right"></span></button>
+                  </span>
+                </div>
+                <label class="mc-label" for="mc-email" id="mc-notification"></label>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+              <div class="copyrights">
+              © Copyright 2016 Scut24. All Rights Reserved
+              </div>
+              <ul class="social-list">
+                <li><a href="" class="fa fa-facebook"></a></li>
+                <li><a href="" class="fa fa-twitter"></a></li>
+                <li><a href="" class="fa fa-linkedin"></a></li>
+                <li><a href="" class="fa fa-instagram"></a></li>
+              </ul>  
+          </div>
+        </div>
+      </footer>
+    </div>
       
       
       <!-- Begin MailChimp Signup Form -->
@@ -196,37 +414,8 @@
         </form>
         </div>
             </div>
-          </div>
-        </div>
-      </section>
+
 <!--End mc_embed_signup-->
-
-      <!-- Footer -->
-
-      <footer id="footer" class="footer footer-2 bg-light">     
-        <div class="container">
-          <div class="row-base row">
-            <div class="brand-info col-base col-sm-6 col-md-6">
-                <a href="#" class="brand js-target-scroll">
-                    <img alt="Scut" height="25px" src="scut_rus_web.png">
-                </a>
-              <p>Новое слово в управлении системами отопления</p>
-            </div>
-            <div class="col-contacts col-base col-sm-6 col-md-6">
-              <a href="tel:79992167419" class="phone">+7 999 216 74 19</a><br>
-              <a href="mailto:info@scut24.ru" class="email">info@scut24.ru</a>
-            </div>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <div class="container">
-              <div class="copyrights">
-              © Copyright 2017 Скут
-              </div>
-          </div>
-        </div>
-      </footer>
-    </div>
 
   <!-- Modals success -->
 
@@ -255,6 +444,7 @@
         </div>
     </div>
   </div>
+ 
 
 <!-- SCRIPTS -->
 
