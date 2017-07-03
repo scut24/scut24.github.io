@@ -361,11 +361,8 @@
                   <div class="col-sm-6 form-group">
                       <input type="text" name="Имя" placeholder="Имя">
                   </div>
-                   <div class="col-sm-6 form-group">
-                      <input type="text" name="Фамилия" placeholder="Фамилия">
-                    </div>
 						<div class="col-sm-6 form-group">
-							<input type="email" name="Номер телефона" required="" placeholder="Номер телефона *">
+							<input type="tel" name="Номер телефона" required="" placeholder="Номер телефона *">
 						</div>
 							<div class="col-sm-6 form-group">
 								<input type="email" name="Электронная почта" placeholder="Электронная почта">
@@ -376,6 +373,23 @@
                   <div class="col-sm-12 text-right">
                     <button type="submit" class="btn">Отправить заявку</button>
                   </div>
+				  <?php
+	$fio = $_POST['fio'];
+	$email = $_POST['email'];
+	$fio = htmlspecialchars($fio);
+	$email = htmlspecialchars($email);
+	$fio = urldecode($fio);
+	$email = urldecode($email);
+	$fio = trim($fio);
+	$email = trim($email);
+	//echo $fio;
+	//echo "<br>";
+	//echo $email;
+	if (mail("info@scut24.ru", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email ,"From: example2@mail.ru \r\n"))
+	 {     echo "сообщение успешно отправлено"; 
+	} else { 
+		echo "при отправке сообщения возникли ошибки";
+	}?>
                 </form>
               </div>
             </div>
